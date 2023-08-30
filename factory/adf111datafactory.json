@@ -1,0 +1,9 @@
+{
+	"name": "adf111datafactory",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "752827fd-324a-499b-9404-46de7e0199c2",
+		"tenantId": "7be8fcf2-5bee-40fd-8fd3-4fa86ca43dd9"
+	}
+}
