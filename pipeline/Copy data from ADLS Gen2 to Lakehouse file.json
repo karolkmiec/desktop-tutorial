@@ -1,0 +1,41 @@
+{
+	"name": "Copy data from ADLS Gen2 to Lakehouse file",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy data from ADLS Gen2 to Lakehouse File",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"enableStaging": false
+				}
+			}
+		],
+		"parameters": {
+			"FileSystemName": {
+				"type": "String"
+			},
+			"DirectoryName": {
+				"type": "String"
+			},
+			"FileName": {
+				"type": "String"
+			},
+			"LakehouseDirectoryName": {
+				"type": "string"
+			},
+			"LakehouseFileName": {
+				"type": "string"
+			}
+		},
+		"annotations": []
+	}
+}
