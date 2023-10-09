@@ -1,0 +1,12 @@
+{
+	"name": "AzureSynapseArtifacts1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSynapseArtifacts",
+		"typeProperties": {
+			"endpoint": "https://pw-synapsetraining-xxuws1.dev.azuresynapse.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/cc4f44bc-5103-402a-904a-cfc47cf50a14/resourceGroups/Intro-to-DataLakeHouse/providers/Microsoft.Synapse/workspaces/pw-synapsetraining-xxuws1"
+		}
+	}
+}
